@@ -71,7 +71,7 @@ export default function HomePage() {
           </li>
         </ul>
         <footer className={styles.footer}>
-          <a href="/poweredby">Powered by Next & Vercel</a> | Aziz &copy; {new Date().getFullYear()}
+          Built with Love 	&#10084; | Aziz &copy; {new Date().getFullYear()}
         </footer>
       </main>
   );
