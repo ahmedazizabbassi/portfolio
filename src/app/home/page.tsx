@@ -17,13 +17,13 @@ export default function HomePage() {
           <div>
             <p className={styles.intro}>Hello, my name is Aziz. I don&apos;t like to share a picture of mine :)</p>
             <h1 className={`${styles.headline} ${styles.headline__1}`}>
-              <strong>hacker</strong> & <strong>cyber security researcher</strong>
+              <span>&#127919;&nbsp;</span><strong>hacker</strong> & <strong>cyber security researcher</strong>
             </h1>
             <h2 className={`${styles.headline} ${styles.headline__2}`}>
-              software developer @&nbsp;<a href="https://softylines.com">softylines</a>
+              <span>&#127919;&nbsp;</span>software developer @&nbsp;<a href="https://softylines.com">softylines</a>
             </h2>
             <h3 className={`${styles.headline} ${styles.headline__3}`}>
-              open source contributor @&nbsp;<a href="https://drupal.org">Drupal.</a>
+              <span>&#127919;&nbsp;</span>open source contributor @&nbsp;<a href="https://drupal.org">Drupal.</a>
             </h3>
           </div>
         </div>
