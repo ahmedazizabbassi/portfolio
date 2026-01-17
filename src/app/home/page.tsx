@@ -54,9 +54,6 @@ export default function HomePage() {
             </a>
           </li>
         </ul>
-        <footer className={styles.footer}>
-          Built with Love 	&#10084; | Aziz &copy; {new Date().getFullYear()}
-        </footer>
       </main>
   );
 }

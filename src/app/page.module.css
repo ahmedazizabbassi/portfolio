@@ -69,7 +69,7 @@
   opacity: 0.6;
   font-size: 0.9rem;
   line-height: 1.5;
-  max-width: 30ch;
+  max-width: 300ch;
   text-wrap: balance;
 }
 
@@ -168,6 +168,13 @@
 .main .about a,
 .footer a {
   color: var(--link);
+}
+
+.footer {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  margin-top: auto;
 }
 
 .footer a {
