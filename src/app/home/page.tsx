@@ -17,7 +17,7 @@ export default function HomePage() {
           <div>
             <p className={styles.intro}>Hello, my name is Aziz. I don&apos;t like to share a picture of mine :)</p>
             <h1 className={`${styles.headline} ${styles.headline__1}`}>
-              <span>&#127919;&nbsp;</span><strong>hacker</strong> & <strong>cyber security researcher</strong>
+              <span>&#9203;&nbsp;</span><strong>hacker</strong> & <strong>cyber security researcher</strong>
             </h1>
             <h2 className={`${styles.headline} ${styles.headline__2}`}>
               <span>&#127919;&nbsp;</span>software developer @&nbsp;<a href="https://softylines.com">softylines</a>
@@ -39,16 +39,10 @@ export default function HomePage() {
             </a>
           </li>
           <li>
-            <a href={`https://gitlab.softylines.com/${process.env.GITLAB_SOFTYLINES_USERNAME}`}>
-              <Image src="/social/logo-gitlab.svg" alt="my working gitlab account" width={20} height={20}className={styles.logo}/>
-            </a>
-          </li>
-          <li>
             <a href={`https://github.com/${process.env.GITHUB_USERNAME}`}>
               <Image src="/social/logo-github.svg" alt="my personal github account" width={20} height={20}className={styles.logo}/>
             </a>
           </li>
-          <li>|</li>
           <li>
             <a href={`https://twitter.com/${process.env.TWITTER_USERNAME}`}>
               <Image src="/social/logo-twitter.svg" alt="my twitter account" width={20} height={20}className={styles.logo}/>
@@ -57,16 +51,6 @@ export default function HomePage() {
           <li>
             <a href={`https://linkedin.com/in/${process.env.LINKEDIN_USERNAME}`}>
               <Image src="/social/logo-linkedin.svg" alt="my linkedin account" width={20} height={20} className={styles.logo}/>
-            </a>
-          </li>
-          <li>
-            <a href={`https://instagram.com/${process.env.META_USERNAME}`}>
-              <Image src="/social/logo-instagram.svg" alt="my instagram account" width={20} height={20} className={styles.logo}/>
-            </a>
-          </li>
-          <li>
-            <a href={`https://facebook.com/${process.env.META_USERNAME}`}>
-              <Image src="/social/logo-facebook.svg" alt="my facebook account" width={20} height={20} className={styles.logo}/>
             </a>
           </li>
         </ul>
