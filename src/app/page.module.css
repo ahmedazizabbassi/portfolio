@@ -1,10 +1,10 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 20rem;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  padding: 4rem;
+  min-height: 85vh;
 }
 
 .description {
