@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+
+  # Next.js on Netlify will output build artifacts that include NEXT_PUBLIC_* values.
+  # Those are intentionally public, but Netlify secrets scanning will fail if it
+  # detects "secret env var" values in build output. We omit only these keys.
+  [build.environment]
+    SECRETS_SCAN_OMIT_KEYS = "NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY"
