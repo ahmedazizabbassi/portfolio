@@ -14,6 +14,7 @@ export default function Navigation() {
     { href: '/experience', label: 'Experience' },
     { href: '/projects', label: 'Projects' },
     { href: '/leadership', label: 'Leadership & Volunteering' },
+    { href: '/contact', label: 'Contact' },
   ];
 
   useEffect(() => {

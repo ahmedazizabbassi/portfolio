@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Aziz | Software Developer</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon_io/favicon.ico" />
       </head>
       <body className={inter.className}>
         <Navigation />
