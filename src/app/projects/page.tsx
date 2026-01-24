@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../page.module.css';
 
 export default function ProjectsPage() {
   const projects = [
@@ -21,34 +20,30 @@ export default function ProjectsPage() {
   ];
 
   return (
-    <main className={styles.main}>
-      <div style={{ maxWidth: '800px', width: '100%' }}>
-        <h1 className={styles.headline} style={{ fontSize: '2.5rem', marginBottom: '2rem' }}>
+    <main className="mx-auto min-h-[85vh] max-w-5xl px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
+      <header className="mb-8 sm:mb-10">
+        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
           Projects
         </h1>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
-          {projects.map((project, index) => (
-            <div
-              key={index}
-              className={styles.card}
-              style={{
-                padding: '1.5rem',
-                border: '1px solid rgba(var(--card-border-rgb), 0.3)',
-                borderRadius: 'var(--border-radius)',
-              }}
-            >
-              <h2 className={styles.headline} style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>
-                {project.title}
-              </h2>
-              <p style={{ color: 'rgba(var(--foreground-rgb), 0.6)', marginBottom: '0.75rem', fontSize: '0.9rem' }}>
-                {project.tech}
-              </p>
-              <p style={{ lineHeight: '1.6' }}>
-                {project.description}
-              </p>
-            </div>
-          ))}
-        </div>
+      </header>
+
+      <div className="flex flex-col gap-6 sm:gap-8">
+        {projects.map((project) => (
+          <section
+            key={project.title}
+            className="rounded-2xl border border-black/10 bg-black/[0.02] p-5 shadow-sm dark:border-white/15 dark:bg-white/[0.03] sm:p-7"
+          >
+            <h2 className="text-xl font-bold sm:text-2xl">
+              {project.title}
+            </h2>
+            <p className="mt-1 text-sm text-black/60 dark:text-white/60 sm:text-base">
+              {project.tech}
+            </p>
+            <p className="mt-4 leading-relaxed">
+              {project.description}
+            </p>
+          </section>
+        ))}
       </div>
     </main>
   );
