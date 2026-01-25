@@ -42,6 +42,56 @@ export default function HomePage() {
                   Drupal.
                 </a>
               </h2>
+              <div className="pt-3">
+                <div className="relative overflow-hidden rounded-2xl border border-black/10 bg-gradient-to-br from-amber-500/[0.12] via-fuchsia-500/[0.10] to-sky-500/[0.10] p-4 shadow-sm dark:border-white/15 dark:from-amber-400/[0.16] dark:via-fuchsia-400/[0.12] dark:to-sky-400/[0.12] sm:p-5">
+                  <div className="flex items-start gap-3">
+                    <div
+                      aria-hidden="true"
+                      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/60 ring-1 ring-black/10 backdrop-blur dark:bg-black/20 dark:ring-white/15"
+                    >
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.8"
+                        className="h-5 w-5 text-amber-700 dark:text-amber-300"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M8 5h8M9 5V3h6v2M7 6h10v3a5 5 0 0 1-4 4.9V16h3v2H8v-2h3v-2.1A5 5 0 0 1 7 9V6ZM6 7H4a2 2 0 0 0 2 2m12-2h2a2 2 0 0 1-2 2"
+                        />
+                      </svg>
+                    </div>
+
+                    <div className="min-w-0">
+                      <p className="text-sm font-semibold tracking-tight sm:text-base">
+                        Featured achievement
+                      </p>
+                      <p className="mt-1 text-sm leading-relaxed text-black/70 dark:text-white/70 sm:text-base">
+                        Tunisia National Champion (2018) — 4×100m relay. I also train as a track athlete and play football regularly.
+                      </p>
+
+                      <div className="mt-3 flex flex-wrap gap-2">
+                        <span className="rounded-full border border-black/10 bg-white/60 px-2.5 py-1 text-xs font-medium text-black/70 backdrop-blur dark:border-white/15 dark:bg-black/20 dark:text-white/70">
+                          2018
+                        </span>
+                        <span className="rounded-full border border-black/10 bg-white/60 px-2.5 py-1 text-xs font-medium text-black/70 backdrop-blur dark:border-white/15 dark:bg-black/20 dark:text-white/70">
+                          4×100m relay
+                        </span>
+                        <span className="rounded-full border border-black/10 bg-white/60 px-2.5 py-1 text-xs font-medium text-black/70 backdrop-blur dark:border-white/15 dark:bg-black/20 dark:text-white/70">
+                          Track & football
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    aria-hidden="true"
+                    className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-amber-400/20 blur-3xl dark:bg-amber-300/20"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </section>
