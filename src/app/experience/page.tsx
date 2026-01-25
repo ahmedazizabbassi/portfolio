@@ -10,10 +10,10 @@ export default function ExperiencePage() {
           title: 'Software Developer',
           period: 'September 2023 – January 2026',
           responsibilities: [
-            'Designed and implemented Laravel-based backend modules handling authentication, data validation, and business logic for production web applications.',
+            'Designed and implemented backend modules handling authentication, data validation, and business logic for production web applications.',
             'Built and maintained RESTful APIs consumed by frontend applications and third-party services.',
             'Designed and optimized MySQL database schemas, writing complex queries and improving data consistency.',
-            'Refactored legacy PHP code to improve readability, maintainability, and performance.',
+            'Refactored legacy code to improve readability, maintainability, and performance.',
             'Debugged production issues and implemented long-term fixes following clean-code practices.',
           ],
         },
