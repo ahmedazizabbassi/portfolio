@@ -1,89 +1,103 @@
-import React from 'react';
+import React from "react";
 
 export default function ExperiencePage() {
   const experiences = [
     {
-      company: 'Softylines',
-      location: 'Sousse, Tunisia',
+      company: "Juridoc.tn",
+      location: "Tunis, Tunisia",
       positions: [
         {
-          title: 'Software Developer',
-          period: 'September 2023 – January 2026',
+          title: "Full Stack Web Developer",
+          period: "February 2026 - April 2026",
           responsibilities: [
-            'Designed and implemented backend modules handling authentication, data validation, and business logic for production web applications.',
-            'Built and maintained RESTful APIs consumed by frontend applications and third-party services.',
-            'Designed and optimized MySQL database schemas, writing complex queries and improving data consistency.',
-            'Refactored legacy code to improve readability, maintainability, and performance.',
-            'Debugged production issues and implemented long-term fixes following clean-code practices.',
-          ],
-        },
-        {
-          title: 'Supervisor and Web Development Mentor',
-          period: 'September 2024 – October 2024',
-          responsibilities: [
-            'Supervised and supported incoming work-study software development trainees.',
-            'Monitored and evaluated trainees\' progress along a structured MERN stack learning roadmap.',
-            'Designed, curated, and facilitated coding challenges to reinforce core programming concepts and promote critical thinking.',
-            'Provided technical assistance and personalized guidance to help overcome roadblocks.',
-            'Regularly reported progress, challenges, and outcomes to senior supervisors and stakeholders.',
+            "Build and maintain features in a production web platform with a focus on stability, maintainability, and performance.",
+            "Collaborate on backend improvements, API evolution, and operational reliability in an active product environment.",
           ],
         },
       ],
     },
     {
-      company: 'Softy Skills',
-      location: 'Sousse, Tunisia',
+      company: "Softylines",
+      location: "Sousse, Tunisia",
       positions: [
         {
-          title: 'Software Development Instructor',
-          period: 'July 2024 – July 2025',
+          title: "Software Developer",
+          period: "September 2023 – January 2026",
           responsibilities: [
-            'Instructed students in software development concepts and practical coding skills.',
+            "Designed and implemented backend modules handling authentication, data validation, and business logic for production web applications.",
+            "Built and maintained RESTful APIs consumed by frontend applications and third-party services.",
+            "Designed and optimized MySQL database schemas, writing complex queries and improving data consistency.",
+            "Refactored legacy code to improve readability, maintainability, and performance.",
+            "Debugged production issues and implemented long-term fixes following clean-code practices.",
+          ],
+        },
+        {
+          title: "Supervisor and Web Development Mentor",
+          period: "September 2024 – October 2024",
+          responsibilities: [
+            "Supervised and supported incoming work-study software development trainees.",
+            "Monitored and evaluated trainees' progress along a structured MERN stack learning roadmap.",
+            "Designed, curated, and facilitated coding challenges to reinforce core programming concepts and promote critical thinking.",
+            "Provided technical assistance and personalized guidance to help overcome roadblocks.",
+            "Regularly reported progress, challenges, and outcomes to senior supervisors and stakeholders.",
           ],
         },
       ],
     },
     {
-      company: 'Google Summer of Code (GSoC)',
-      location: 'Remote',
+      company: "Softy Skills",
+      location: "Sousse, Tunisia",
       positions: [
         {
-          title: 'Open Source Contributor (Drupal Association)',
-          period: 'June 2023 – August 2023',
+          title: "Software Development Instructor",
+          period: "July 2024 – July 2025",
           responsibilities: [
-            'Designed and developed a custom Drupal module in PHP, extending core functionality to improve developer workflows.',
-            'Worked within a large open-source codebase, following Drupal coding standards and review processes.',
-            'Collaborated with international mentors and contributors through GitHub issues and code reviews.',
-            'Documented the module and supported long-term maintainability.',
+            "Instructed students in software development concepts and practical coding skills.",
           ],
         },
       ],
     },
     {
-      company: 'Galois Center',
-      location: 'Nabeul, Tunisia',
+      company: "Google Summer of Code (GSoC)",
+      location: "Remote",
       positions: [
         {
-          title: 'Web Developer (PHP)',
-          period: 'January 2022 – June 2022',
+          title: "Open Source Contributor (Drupal Association)",
+          period: "June 2023 – August 2023",
           responsibilities: [
-            'Designed and developed a custom ERP system from scratch using PHP and MySQL, covering core business workflows.',
-            'Implemented user authentication, role-based access control, and CRUD modules.',
-            'Designed relational database schemas and ensured data integrity across multiple modules.',
-            'Built server-side logic to handle business rules and data processing.',
+            "Designed and developed a custom Drupal module in PHP, extending core functionality to improve developer workflows.",
+            "Worked within a large open-source codebase, following Drupal coding standards and review processes.",
+            "Collaborated with international mentors and contributors through GitHub issues and code reviews.",
+            "Documented the module and supported long-term maintainability.",
           ],
         },
       ],
     },
     {
-      company: 'Freelance',
-      location: 'Nabeul, Tunisia',
+      company: "Galois Center",
+      location: "Nabeul, Tunisia",
       positions: [
         {
-          title: 'Python ML Developer',
-          period: 'September 2020 – August 2021',
+          title: "Web Developer (PHP)",
+          period: "January 2022 – June 2022",
           responsibilities: [
-            'Worked on Machine Learning projects using Python.',
+            "Designed and developed a custom ERP system from scratch using PHP and MySQL, covering core business workflows.",
+            "Implemented user authentication, role-based access control, and CRUD modules.",
+            "Designed relational database schemas and ensured data integrity across multiple modules.",
+            "Built server-side logic to handle business rules and data processing.",
+          ],
+        },
+      ],
+    },
+    {
+      company: "Freelance",
+      location: "Nabeul, Tunisia",
+      positions: [
+        {
+          title: "Python ML Developer",
+          period: "September 2020 – August 2021",
+          responsibilities: [
+            "Worked on Machine Learning projects using Python.",
           ],
         },
       ],
@@ -119,9 +133,9 @@ export default function ExperiencePage() {
                   key={`${position.title}-${position.period}`}
                   className={[
                     positionIndex < experience.positions.length - 1
-                      ? 'border-b border-black/10 pb-6 dark:border-white/15'
-                      : '',
-                  ].join(' ')}
+                      ? "border-b border-black/10 pb-6 dark:border-white/15"
+                      : "",
+                  ].join(" ")}
                 >
                   <h3 className="text-base font-semibold sm:text-lg">
                     {position.title}
@@ -132,7 +146,10 @@ export default function ExperiencePage() {
 
                   <ul className="mt-4 space-y-3">
                     {position.responsibilities.map((responsibility) => (
-                      <li key={`${position.title}-${responsibility}`} className="relative pl-6 leading-relaxed">
+                      <li
+                        key={`${position.title}-${responsibility}`}
+                        className="relative pl-6 leading-relaxed"
+                      >
                         <span
                           aria-hidden="true"
                           className="absolute left-0 top-[0.65em] h-1.5 w-1.5 rounded-full bg-black/60 dark:bg-white/60"
