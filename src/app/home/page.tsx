@@ -30,7 +30,7 @@ export default function HomePage() {
               </h1>
               <h2 className="text-xl font-bold capitalize leading-snug sm:text-2xl">
                 <span aria-hidden="true" className="mr-1">🎯</span>{" "}
-                software developer
+                software engineer
               </h2>
               <h2 className="text-xl font-bold capitalize leading-snug sm:text-2xl">
                 <span aria-hidden="true" className="mr-1">🎯</span>{" "}

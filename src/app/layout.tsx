@@ -7,7 +7,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Aziz | Software Developer",
+  title: "Aziz | Software Engineer",
   description: "Software Engineer | Cyber Security Enthusiast | Open Source Contributor",
 };
 
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Aziz | Software Developer</title>
+        <title>Aziz | Software Engineer</title>
         <link rel="icon" href="/favicon_io/favicon.ico" />
       </head>
       <body className={inter.className}>
