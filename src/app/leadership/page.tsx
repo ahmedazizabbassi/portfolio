@@ -4,7 +4,7 @@ export default function LeadershipPage() {
   const leadershipItems = [
     {
       title: 'Google Summer of Code Mentor',
-      period: '2024, 2025',
+      period: '2024, 2025 and 2026',
       description: 'Mentored new contributors in the open-source community, helping them navigate the GSoC program and contribute effectively to open-source projects.',
     },
     {
