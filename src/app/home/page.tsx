@@ -71,7 +71,7 @@ export default function HomePage() {
                   <span aria-hidden="true" className="mr-1">
                     🎯
                   </span>{" "}
-                  software developer
+                  software engineer
                 </p>
 
                 <p className="text-xl font-semibold capitalize leading-snug tracking-tight text-black/85 dark:text-white/85 sm:text-2xl">
